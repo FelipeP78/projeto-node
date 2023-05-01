@@ -8,7 +8,7 @@ router.get('/check', (req: Request, res: Response) => {
 });
 
 router.get('/', (req: Request, res: Response) => {
-    const healthCheck = {message: 'VAMO FELIPEEEE'};
+    const healthCheck = {message: 'A aplicação esta funcionando normalmente'};
     res.send(healthCheck);
 });
 
